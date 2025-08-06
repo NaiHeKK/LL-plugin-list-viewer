@@ -57,4 +57,5 @@ jobs:
         # generateReleaseNotes: true
         body: ${{ steps.generate_changelog.outputs.changelog }}
         makeLatest: latest
+        tag: latest
         token: ${{ secrets.GITHUB_TOKEN }}
